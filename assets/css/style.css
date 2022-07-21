@@ -1,0 +1,72 @@
+html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: VelaSans; 
+    src: url(../fonts/VelaSans/Static/TTF/VelaSans-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: VelaSans; 
+    src: url(../fonts/VelaSans/Static/TTF/VelaSans-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: VelaSans; 
+    src: url(../fonts/VelaSans/Static/TTF/VelaSans-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: VelaSans; 
+    src: url(../fonts/VelaSans/Static/TTF/VelaSans-Bold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-color: #272727;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0; 
+  font-family: VelaSans; 
+  color: #fff;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Page */
+.page {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+/* Header */
