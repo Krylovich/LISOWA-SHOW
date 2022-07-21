@@ -118,7 +118,7 @@ a {
 .nav-link {
   position: relative;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   padding: 10px;
   margin-left: 15px;
@@ -189,16 +189,16 @@ a {
 }
 
 .intro-logo {
-  width: 150px;
+  width: 180px;
 }
 
 .intro-title {
-  font-size: 54px;
+  font-size: 58px;
   text-align: center;
   margin: 10px auto;
-  padding: 30px;
+  padding: 35px;
   background-image: url(../img/star.png);
-  background-position: right 92px top -31px;
+  background-position: right 102px top -35px;
   background-repeat: no-repeat;
   background-size: 25%;
 }
