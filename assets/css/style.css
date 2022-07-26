@@ -98,7 +98,7 @@ a {
   left: 0;
   right: 0;
   z-index: 1000;
-  background-color: transparent;
+  background-color: #0100025a;
 }
 
 .header-inner {
@@ -123,6 +123,14 @@ a {
   padding: 10px;
   margin-left: 15px;
   margin-right: 15px;
+}
+
+.nav-link:first-child {
+  margin-left: 0;
+}
+
+.nav-link:last-child {
+  margin-right: 0;
 }
 
 .nav-link:after,
@@ -186,6 +194,7 @@ a {
   max-width: 800px;
   height: 800px;
   z-index: 999;
+  background-color: transparent;
 }
 
 .intro-logo {
@@ -195,6 +204,7 @@ a {
 .intro-title {
   font-size: 58px;
   text-align: center;
+  font-weight: 700;
   margin: 10px auto;
   padding: 35px;
   background-image: url(../img/star.png);
@@ -202,3 +212,130 @@ a {
   background-repeat: no-repeat;
   background-size: 25%;
 }
+
+/* Section */
+.section {
+  padding: 40px 0;
+}
+
+/* Belle-show */
+.belle-block {
+  background-image: url(../img/circle-min.png), url(../img/circle-min.png);
+  background-position: left 0px top -20px, right -40px top 670px;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.belle-show-title {
+  font-size: 48px;
+  font-weight: 700;
+  padding: 35px 10px 20px;
+  margin-bottom: 20px;
+  z-index: 1000;
+  position: relative;
+  background-image: url(../img/star.png);
+  background-position: right 508px top 76px;
+  background-repeat: no-repeat;
+  background-size: 8%;
+  background-color: transparent;
+}
+
+.show-video {
+  width: 100%;
+  height: 683px;
+  padding: 0 10px;
+}
+
+/* Btns */
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  position: relative;
+  font-size: 19px;
+  font-weight: 600;
+  padding: 20px 60px;
+  text-align: center;
+  display: block;
+  transition: 0.3s;
+  background-size: 100% auto;
+  background-image: linear-gradient(to right, #356FF3  40%, #8D389B  100%);
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 6px 6px #d0ffff37;
+}
+
+/* Gallery */
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 40px 5px 5px;
+  background-image: url(../img/circle-min.png);
+  background-position: left 0px top -40px;
+  background-size: 30%;
+  background-repeat: no-repeat;
+}
+
+.gallery-img {
+  width: 100%;
+  max-width: 400px;
+  height: 430px;
+  object-fit: cover;
+  padding: 10px 5px;
+}
+
+.text {
+  width: 100%;
+  max-width: 1280px;
+  margin-top: -20px;
+  padding: 60px 10px;
+  background-image: url(../img/circle-min.png), url(../img/circle-min.png), url(../img/circle-min.png) ;
+  background-position: left -35px top -55px, right 0px bottom 55px, left 219px bottom -35px;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+textarea {
+  width: 100%;
+  margin: 20px auto;
+  font-family: VelaSans;
+  font-weight: 400;
+  color: #fff;
+  font-size: 26px;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  background-image: url(../img/back-text.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  resize: none;
+}
+
+#btn-copy {
+  width: 300px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+         
+
+
