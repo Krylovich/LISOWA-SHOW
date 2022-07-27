@@ -218,6 +218,17 @@ a {
   padding: 40px 0;
 }
 
+/* Title */
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  padding: 35px 10px 20px;
+  margin-bottom: 20px;
+  z-index: 1000;
+  position: relative;
+  background-color: transparent;
+}
+
 /* Belle-show */
 .belle-block {
   background-image: url(../img/circle-min.png), url(../img/circle-min.png);
@@ -228,17 +239,10 @@ a {
 }
 
 .belle-show-title {
-  font-size: 48px;
-  font-weight: 700;
-  padding: 35px 10px 20px;
-  margin-bottom: 20px;
-  z-index: 1000;
-  position: relative;
   background-image: url(../img/star.png);
   background-position: right 508px top 76px;
   background-repeat: no-repeat;
   background-size: 8%;
-  background-color: transparent;
 }
 
 .show-video {
@@ -267,11 +271,11 @@ a {
   display: block;
   transition: 0.3s;
   background-size: 100% auto;
-  background-image: linear-gradient(to right, #356FF3  40%, #8D389B  100%);
+  background-image: linear-gradient(to right, #356FF3  30%, #8D389B  100%);
 }
 
 .btn:hover {
-  box-shadow: 0px 0px 6px 6px #d0ffff37;
+  box-shadow: 0px 0px 5px 5px #d0ffff37;
 }
 
 /* Gallery */
@@ -295,13 +299,14 @@ a {
   padding: 10px 5px;
 }
 
+/* Text */
 .text {
   width: 100%;
   max-width: 1280px;
   margin-top: -20px;
-  padding: 60px 10px;
+  padding: 60px 10px 5px;
   background-image: url(../img/circle-min.png), url(../img/circle-min.png), url(../img/circle-min.png) ;
-  background-position: left -35px top -55px, right 0px bottom 55px, left 219px bottom -35px;
+  background-position: left -35px top -55px, right 0px bottom 55px, left 219px bottom -23px;
   background-size: 30%;
   background-repeat: no-repeat;
   display: flex;
@@ -325,9 +330,42 @@ textarea {
   resize: none;
 }
 
-#btn-copy {
-  width: 300px;
+.copy {
+  width: 350px;
   margin-top: 20px;
+}
+
+/* Price */
+.price {
+  background-image: url(../img/circle-min.png);
+  background-position: left 0px top -50px;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  padding: 20px 0 35px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style-type: none;
+  padding-left: 10px;
+  background-image: url(../img/circle-min.png);
+  background-position: right 400px top 10px;
+  background-size: 15%;
+  background-repeat: no-repeat;
+}
+
+.price-item {
+  font-family: VelaSans;
+  font-weight: 200;
+  font-size: 32px;
+  text-shadow:  1px 0 1px #fff, 
+  0 1px 1px #fff, 
+  -1px 0 1px #fff, 
+  0 -1px 1px #fff;;
+  color: #fff;
+  padding: 10px 0;
 }
 
 
