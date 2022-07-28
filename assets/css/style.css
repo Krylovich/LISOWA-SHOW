@@ -264,10 +264,11 @@ a {
 }
 
 .btn {
+  width: 30%;
   position: relative;
   font-size: 19px;
   font-weight: 600;
-  padding: 20px 60px;
+  padding: 20px 30px;
   text-align: center;
   display: block;
   transition: 0.3s;
@@ -326,14 +327,22 @@ textarea {
   text-align: left;
   background-color: transparent;
   border: none;
-  background-image: url(../img/back-text.png);
+  background-image: url(../img/back-text-mess.png);
   background-repeat: no-repeat;
   background-size: 100%;
   resize: none;
 }
 
 .mess-text {
-  background-image: url(../img/back-text-mess.png);
+  background-image: url(../img/back-text-mess-min.png);
+}
+
+.dance-text {
+  background-image: url(../img/back-text-dance-min.png)
+}
+
+.jugg-text {
+  background-image: url(../img/back-text-jugg.png)
 }
 
 .copy {
@@ -391,6 +400,59 @@ ul {
   background-position: right 245px top 76px;
   background-repeat: no-repeat;
   background-size: 8%;
+}
+
+/* Dance */
+.dance-block {
+  background-image: url(../img/circle-min.png), url(../img/circle-min.png);
+  background-position: left 10px top -50px, right -60px top 550px;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-color: transparent;
+}
+
+.dance-show-title {
+  background-image: url(../img/star.png);
+  background-position: left 555px top 76px;
+  background-repeat: no-repeat;
+  background-size: 8%;
+}
+
+.show-dance-video {
+  width: 628px;
+  height: 353px;
+  padding: 0 10px;
+}
+
+.show-price-sec {
+  background-image: url(../img/circle-min.png);
+  background-position: left 400px top -30px;
+  background-size: 20%;
+  background-repeat: no-repeat;
+}
+
+/* Juggling */
+.juggling-block {
+  background-image: url(../img/circle-min.png), url(../img/circle-min.png);
+  background-position: left 10px top -50px, right -30px top 700px;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.juggling-show-title {
+  background-image: url(../img/star.png);
+  background-position: left 398px top 67px;
+  background-repeat: no-repeat;
+  background-size: 8%;
+}
+
+.jugg-gallery {
+  background-image: url(../img/circle-min.png);
+  background-position: left 500px top -15px;
+  background-size: 40%;
+  background-repeat: no-repeat;
 }
 
 
