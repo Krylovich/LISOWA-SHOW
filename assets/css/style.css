@@ -276,8 +276,18 @@ a {
   background-image: linear-gradient(to right, #356FF3  30%, #8D389B  100%);
 }
 
-.btn:hover {
-  box-shadow: 0px 0px 5px 5px #d0ffff37;
+.btn:after {
+  content: "";
+  position: absolute; top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.01), #d0ffffab, rgba(255, 255, 255, 0.01)) no-repeat -15px 0%;
+  background-size: 15px 100%;
+}
+
+.btn:hover:after {
+  transition: 0.3s linear;
+  background-position: 110% 0px;
 }
 
 /* Gallery */
@@ -338,11 +348,20 @@ textarea {
 }
 
 .dance-text {
-  background-image: url(../img/back-text-dance-min.png)
+  background-image: url(../img/back-text-dance-min.png);
 }
 
 .jugg-text {
-  background-image: url(../img/back-text-jugg.png)
+  background-image: url(../img/back-text-jugg-min.png);
+}
+
+.silver-text {
+  background-image: url(../img/back-text-silver-min.png);
+}
+
+.silver-text-more {
+  font-size: 40px;
+  background-image: url(../img/back-text.png);
 }
 
 .copy {
@@ -435,7 +454,7 @@ ul {
 /* Juggling */
 .juggling-block {
   background-image: url(../img/circle-min.png), url(../img/circle-min.png);
-  background-position: left 10px top -50px, right -30px top 700px;
+  background-position: left 10px top -37px, right -30px top 700px;
   background-size: 30%;
   background-repeat: no-repeat;
   width: 100%;
@@ -455,6 +474,51 @@ ul {
   background-repeat: no-repeat;
 }
 
+/* Silver */
+.silver-show {
+  background-image: url(../img/circle-min.png), url(../img/circle-min.png);
+  background-position: left 5px top -10px, right -30px top 400px;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.silver-block {
+  background-image: url(../img/circle-min.png), url(../img/circle-min.png);
+  background-position: left -250px top 3200px, right 30px top 3090px;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.silver-show-title {
+  background-image: url(../img/star.png);
+  background-position: left 397px top 1px;
+  background-repeat: no-repeat;
+  background-size: 8%;
+}
+
+.silver-gallery {
+  background-image: url(../img/circle-min.png);
+  background-position: left 10px top -15px;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+
+.silver-show-title-more {
+  background-image: url(../img/star.png), url(../img/circle-min.png);
+  background-position: left 783px top 1px, left -10px top 0px;
+  background-repeat: no-repeat;
+  background-size: 8%;
+}
+
+.extra-info {
+  background-image: url(../img/circle-min.png), url(../img/circle-min.png);
+  background-position: left -20px top -30px, right -30px top -30px;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
 
 
 
