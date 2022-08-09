@@ -362,6 +362,7 @@ textarea {
 .silver-text-more {
   font-size: 40px;
   background-image: url(../img/back-text.png);
+  padding: 0px 10px;
 }
 
 .copy {
@@ -475,18 +476,18 @@ ul {
 }
 
 /* Silver */
-.silver-show {
-  background-image: url(../img/circle-min.png), url(../img/circle-min.png);
-  background-position: left 5px top -10px, right -30px top 400px;
-  background-size: 60%;
-  background-repeat: no-repeat;
-  width: 100%;
-}
-
 .silver-block {
   background-image: url(../img/circle-min.png), url(../img/circle-min.png);
   background-position: left -250px top 3200px, right 30px top 3090px;
   background-size: 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.silver-show {
+  background-image: url(../img/circle-min.png), url(../img/circle-min.png);
+  background-position: left 5px top 0px, right -30px top 400px;
+  background-size: 60%;
   background-repeat: no-repeat;
   width: 100%;
 }
