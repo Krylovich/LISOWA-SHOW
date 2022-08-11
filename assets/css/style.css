@@ -278,14 +278,21 @@ a {
   transition: all 0.15s ease-in-out;
 }
 
-.btn:hover {
+/*.btn:hover {
   box-shadow: 0px 0px 2px 0px #8e389bcb,
             0px 0px 4px 0px rgba(0,255,255,0.7),
             0px 1px 8px 0px #356ef3fc,
             0px 1px 20px 0px #d0ffff;
   background-image: linear-gradient(to right, #356ef32d  30%, #8e389b23  100%);
   text-shadow:  1px 1px 1px rgba(0,255,255,0.7);
+}*/
 
+.btn:hover {
+  box-shadow: 0px 0px 2px 0px #8e389bcb,
+  0px 0px 4px 0px #ffe3ff,
+  0px 1px 8px 0px #8e389bb4,
+  0px 1px 20px 0px #ffe3ff;
+  background-image: linear-gradient(to right, #356ef32d  30%, #8e389b23  100%);
 }
 
 /* Gallery */
@@ -609,12 +616,18 @@ ul {
 
 .footer-inner {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   background-image: url(../img/back-text-mess-min.png);
   height: 300px;
   background-size: 100%;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .footer-title {
@@ -645,11 +658,20 @@ ul {
   padding: 10px;
 }
 
-.contacts-icon:hover {
+/*.contacts-icon:hover {
   box-shadow: 0px 0px 2px 0px #8e389bcb,
             0px 0px 4px 0px rgba(0,255,255,0.7),
             0px 1px 8px 0px #356ef3fc,
             0px 1px 20px 0px #d0ffff;
+  background-image: linear-gradient(to right, #356ef375  20%, #8e389b8c  100%);
+  border-radius: 10px;
+} */
+
+.contacts-icon:hover {
+  box-shadow: 0px 0px 2px 0px #8e389bcb,
+            0px 0px 4px 0px #ffe3ff,
+            0px 1px 8px 0px #8e389bb4,
+            0px 1px 20px 0px #ffe3ff;
   background-image: linear-gradient(to right, #356ef375  20%, #8e389b8c  100%);
   border-radius: 10px;
 }
@@ -660,6 +682,12 @@ span {
   font-weight: 500;
   font-size: 24px;
   margin: 10px auto;
+  text-align: center;
+}
+
+.footer-calendar {
+  width: 400px;
+  height: 250px;
 }
 
 
