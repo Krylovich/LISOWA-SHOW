@@ -690,18 +690,20 @@ span {
 }
 
 .footer-calender-text {
-  font-size: 24px;
+  font-size: 34px;
   text-align: center;
   font-weight: 700;
   margin-bottom: 20px;
-  width: 300px;
+  width: 350px;
   text-transform: uppercase;
   padding: 10px;
   background-image: url(../img/star.png);
-  background-position: right 13px top -5px;
+  background-position: right -12px top -5px;
   background-repeat: no-repeat;
   background-size: 15%;
 }
+
+/* Media Queries */
 
 
 
