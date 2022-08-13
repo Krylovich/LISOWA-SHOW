@@ -448,12 +448,6 @@ ul {
   background-size: 8%;
 }
 
-.show-dance-video {
-  width: 628px;
-  height: 353px;
-  padding: 0 10px;
-}
-
 .show-price-sec {
   background-image: url(../img/circle-min.png);
   background-position: left 400px top -30px;
@@ -686,8 +680,27 @@ span {
 }
 
 .footer-calendar {
-  width: 400px;
-  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-footer {
+  width: 300px;
+}
+
+.footer-calender-text {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+  width: 300px;
+  text-transform: uppercase;
+  padding: 10px;
+  background-image: url(../img/star.png);
+  background-position: right 13px top -5px;
+  background-repeat: no-repeat;
+  background-size: 15%;
 }
 
 
