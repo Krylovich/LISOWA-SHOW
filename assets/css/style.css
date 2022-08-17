@@ -698,13 +698,173 @@ span {
   text-transform: uppercase;
   padding: 10px;
   background-image: url(../img/star.png);
-  background-position: right -12px top -5px;
+  background-position: right -7px top 40px;
   background-repeat: no-repeat;
   background-size: 15%;
 }
 
 /* Media Queries */
+@media (max-width: 1280px) {
+  /* Container */
+  .container {
+    max-width: 770px;
+    padding: 0 7px;
+  }
 
+  /* Header */
+  .header-inner {
+    height: 70px;
+  }
+  .nav-link {
+    
+  }
+
+  /* Intro */
+  .intro {
+    background-size: 40%;
+    height: 600px;
+    background-image: url(../img/light.png), url(../img/intro.png);
+    background-position: left 0px top 80px, right 0px top 0px;
+  }
+
+  .intro-info {
+    max-width: 400px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-image: url(../img/circle-min.png);
+    background-position: left 0px top 135px;
+  }
+
+  .intro-logo {
+    width: 120px;
+  } 
+
+  .intro-title {
+    font-size: 34px;
+    margin: 10px auto;
+    padding: 10px;
+    background-position: right 52px top -28px;
+  }
+
+  /* Section */
+  .section {
+    padding: 15px 0;
+  }
+
+  /* Title */
+  .title {
+    font-size: 34px;
+    padding: 15px 10px 10px;
+    margin-bottom: 10px;
+  }
+
+  .belle-show-title {
+    background-position: right 225px top 49px;
+  }
+
+  .mess-show-title {
+    background-position: right 39px top 49px;
+  }
+
+  .dance-show-title {
+    background-position: right 292px top 49px;
+  }
+
+  .juggling-show-title {
+    background-position: right 405px top 43px;
+  }
+
+  .silver-show-title {
+    background-position: left 290px top -4px;
+  }
+
+  .silver-text-more {
+    font-size: 24px;
+  }
+
+  .trelawney-show-title {
+    background-position: left 312px top -4px;
+  }
+
+  .memes-show-title {
+    background-position: left 155px top -4px;
+  }
+
+  .dwarf-show-title {
+    background-position: left 367px top 49px;
+  }
+
+  .footer-title {
+    background-position: left -18px top -5px;
+  }
+
+  /* Video */
+  .show-video {
+    height: 414px;
+  }
+
+  /* BTN */
+  .btns {
+    margin-top: 10px;
+  }
+
+  .btn {
+    width: 31%;
+    font-size: 14px;
+    padding: 14px 10px;
+  }
+
+  /* Gallery */
+  .gallery {
+    padding-top: 20px;
+    margin-top: 10px;
+  }
+
+  .gallery-img {
+    max-width: 230px;
+    height: 265px;
+  }
+
+  /* Text */
+  .text {
+    max-width: 770px;
+    margin-top: -15px;
+    padding: 30px 10px 5px;
+  }
+
+  textarea {
+    font-size: 15px;
+  }
+
+  /* Price */
+  .price-item {
+    font-size: 20px;
+    padding: 7px 0;
+  }
+
+  /* Footer */
+  .contacts {
+    width: 300px;
+  }
+  
+  .contacts-icon {
+    width: 55px;
+    height: 55px;
+  }
+
+  span {
+    font-size: 19px;
+  }
+
+  .footer-calender-text {
+    font-size: 24px;
+    background-position: right 39px top 25px;
+  }
+
+  .btn-footer {
+    width: 230px;
+  }
+}
 
 
 
