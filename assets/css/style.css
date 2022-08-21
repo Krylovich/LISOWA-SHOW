@@ -1080,7 +1080,7 @@ span {
 
   /* Block */
   .belle-block {
-    background-position: left 0px top -20px, right -40px top 317px;
+    background-position: left 0px top 8px, right -40px top 317px;
   }
 
   .mess-block {
@@ -1114,6 +1114,7 @@ span {
   .gallery {
     padding-left: 5px;
     padding-right: 5px;
+    background-position: left 0px top 15px;
   }
 
   .gallery-img {
