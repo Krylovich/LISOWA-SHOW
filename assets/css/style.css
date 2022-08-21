@@ -1475,10 +1475,6 @@ span {
     font-size: 7px;
   }
 
-  .btns-memes .btn:last-child {
-    margin-left: 0;
-  }
-
   /* Gallery */
   .gallery-img {
     height: 122px;
@@ -1491,6 +1487,7 @@ span {
 
   .mob {
     display: initial;
+    background-image: url(../img/back-text-mob-min.png);
   }
 
   textarea {
@@ -1509,9 +1506,15 @@ span {
   }
 
   /* Footer */
+  .footer {
+    padding: 5px;
+    background-position: left 10px top 0px, right 50px top 115px;
+  }
+
   .footer-inner {
     height: 280px;
     flex-direction: column-reverse;
+    background-image: url(../img/back-text-mob-min.png);
   }
 
   span {
@@ -1529,8 +1532,6 @@ span {
     background-position: left 55px top -19px;
     margin-top: 10px;
   }
-
-
 }
 
 
