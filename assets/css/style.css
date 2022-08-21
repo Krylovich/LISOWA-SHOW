@@ -370,19 +370,14 @@ textarea {
   resize: none;
 }
 
-.mess-text {
-  background-image: url(../img/back-text-mess-min.png);
+.mob {
+  display: none;
 }
 
-.dance-text {
-  background-image: url(../img/back-text-dance-min.png);
-}
-
+.mess-text,
+.silver-text,
+.dance-text,
 .jugg-text {
-  background-image: url(../img/back-text-jugg-min.png);
-}
-
-.silver-text {
   background-image: url(../img/back-text-silver-min.png);
 }
 
@@ -1419,18 +1414,12 @@ span {
 
   /* Intro */
   .intro {
-    height: 100vh;
+    height: 550px;
     background-size: 66%;
   }
 
   .intro-info {
     height: 320px;
-    left: calc((100vw - 380px)/2);
-  }
-
-  .intro-title {
-    background-position: right 52px top -12px;
-    font-size: 28px;
   }
 
   /* Title */
@@ -1482,16 +1471,8 @@ span {
   }
 
   /* Btns */
-  .btns {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .btn {
-    width: 100%;
-    font-size: 14px;
-    padding: 14px 5px;
-    margin: 5px auto;
+    font-size: 7px;
   }
 
   .btns-memes .btn:last-child {
@@ -1499,20 +1480,26 @@ span {
   }
 
   /* Gallery */
-  .gallery {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .gallery-img {
-    max-width: 370px;
-    height: 393px;
+    height: 122px;
   }
 
   /* Text */
+  .desk {
+    display: none;
+  }
+
+  .mob {
+    display: initial;
+  }
+
   textarea {
-    font-size: 8px;
+    font-size: 10px;
     margin: 14px auto;
+  }
+
+  .silver-text-more {
+    font-size: 11px;
   }
 
   /* Price */
@@ -1540,6 +1527,7 @@ span {
   .footer-title {
     background-size: 19%;
     background-position: left 55px top -19px;
+    margin-top: 10px;
   }
 
 
