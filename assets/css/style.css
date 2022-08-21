@@ -1086,7 +1086,10 @@ span {
   .mess-block {
     background-position: left 114px top 1px, right -60px top 670px;
   }
-  
+
+  .memes-block {
+    background-position: left -30px top 7px, right -40px top 700px;
+  }
 
   /* Video */
   .show-video {
@@ -1167,6 +1170,10 @@ span {
     background-size: 16%;
   }
 
+  .extra-info {
+    background-position: left 150px top -5px;
+  }
+
   ul {
     padding-left: 5px;
     padding-right: 5px;
@@ -1229,7 +1236,7 @@ span {
   }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 561px) {
   /* Container */
   .container {
     width: 415px;
@@ -1247,6 +1254,15 @@ span {
   .intro-title {
     background-position: right 47px top -11px;
     font-size: 25px;
+  }
+
+  /* Block */
+  .messenger-block {
+    background-position: left 114px top 23px, right 8px top 515px;
+  }
+
+  .dance-block {
+    background-position: left 10px top 17px, right 0px top 368px;
   }
 
   /* Title */
@@ -1324,6 +1340,10 @@ span {
     margin-top: 10px;
   }
 
+  .silver-text-more {
+    font-size: 13px;
+  }
+
   /* Video */
   .show-video {
     height: 221px;
@@ -1332,15 +1352,21 @@ span {
   /* Price */
   .price {
     padding: 15px 0;
+    background-position: left 0px top 31px;
   }
 
   .price-item {
     padding: 7px 0;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   ul {
     margin-bottom: 20px;
+    background-position: right 193px top 9px;
+  }
+
+  .extra-info {
+    background-position: left 150px top 8px;
   }
 
   /* Footer */
@@ -1383,6 +1409,140 @@ span {
   .btn-footer {
     width: 150px;
   }
+}
+
+@media (max-width: 430px) {
+  /* Container */
+  .container {
+    max-width: 370px;
+  }
+
+  /* Intro */
+  .intro {
+    height: 100vh;
+    background-size: 66%;
+  }
+
+  .intro-info {
+    height: 320px;
+    left: calc((100vw - 380px)/2);
+  }
+
+  .intro-title {
+    background-position: right 52px top -12px;
+    font-size: 28px;
+  }
+
+  /* Title */
+  .title {
+    width: 331px;
+    font-size: 20px;
+  }
+
+  .belle-show-title {
+    background-position: right 13px top 28px;
+  }
+
+  .mess-show-title {
+    background-position: right 67px top 29px;
+  }
+
+  .dance-show-title {
+    background-position: right 52px top 28px;
+  }
+
+  .juggling-show-title {
+    background-position: right 118px top 25px;
+  }
+
+  .silver-show-title {
+    background-position: left 118px top 57px;
+  }
+
+  .trelawney-show-title {
+    background-position: left 176px top -4px;
+  }
+
+  .memes-show-title {
+    background-position: left 83px top -3px;
+  }
+
+  .dwarf-show-title {
+    background-position: left 208px top 28px;
+  }
+
+  /* Blocks */
+  .belle-block {
+    background-position: left 10px top 19px, right 9px top 317px;
+  }
+
+  /* Video */
+  .show-video {
+    height: 197px;
+  }
+
+  /* Btns */
+  .btns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: 14px;
+    padding: 14px 5px;
+    margin: 5px auto;
+  }
+
+  .btns-memes .btn:last-child {
+    margin-left: 0;
+  }
+
+  /* Gallery */
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery-img {
+    max-width: 370px;
+    height: 393px;
+  }
+
+  /* Text */
+  textarea {
+    font-size: 8px;
+    margin: 14px auto;
+  }
+
+  /* Price */
+  .price-item {
+    padding: 7px 0;
+    font-size: 11px;
+  }
+
+  /* Footer */
+  .footer-inner {
+    height: 280px;
+    flex-direction: column-reverse;
+  }
+
+  span {
+    font-size: 10px;
+  }
+
+  .footer-calender-text {
+    font-size: 16px;
+    width: 220px;
+    background-position: right 13px top 8px;
+  }
+
+  .footer-title {
+    background-size: 19%;
+    background-position: left 55px top -19px;
+  }
+
+
 }
 
 
