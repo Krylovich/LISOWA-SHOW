@@ -1424,24 +1424,24 @@ span {
 
   /* Title */
   .title {
-    width: 331px;
+    width: 314px;
     font-size: 20px;
   }
 
   .belle-show-title {
-    background-position: right 13px top 28px;
+    background-position: right -3px top 30px;
   }
 
   .mess-show-title {
-    background-position: right 67px top 29px;
-  }
+    background-position: right 52px top 29px;
+  } 
 
   .dance-show-title {
-    background-position: right 52px top 28px;
+    background-position: right 37px top 29px;
   }
 
   .juggling-show-title {
-    background-position: right 118px top 25px;
+    background-position: right 104px top 26px;
   }
 
   .silver-show-title {
@@ -1449,15 +1449,15 @@ span {
   }
 
   .trelawney-show-title {
-    background-position: left 176px top -4px;
+    background-position: left 176px top -1px;
   }
 
   .memes-show-title {
-    background-position: left 83px top -3px;
+    background-position: left 83px top -1px;
   }
 
   .dwarf-show-title {
-    background-position: left 208px top 28px;
+    background-position: left 208px top 30px;
   }
 
   /* Blocks */
@@ -1491,7 +1491,7 @@ span {
   }
 
   textarea {
-    font-size: 10px;
+    font-size: 11px;
     margin: 14px auto;
   }
 
@@ -1529,8 +1529,48 @@ span {
 
   .footer-title {
     background-size: 19%;
-    background-position: left 55px top -19px;
+    background-position: left 47px top -18px;
     margin-top: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  /* Container */
+  .container {
+    max-width: 314px;
+    padding: 0 3px;
+  }
+
+  /* Intro */
+  .intro-info {
+    left: calc((100vw - 314px)/2);
+  }
+  
+  /* Video */
+  .show-video {
+    height: 168px;
+  }
+
+  /* Btn */
+  .btn {
+    font-size: 6px;
+    font-weight: 600;
+    padding: 10px 4px;
+  }
+
+  /* Gallery */
+  .gallery-img {
+    height: 105px;
+  }
+
+  /* Text */
+  textarea {
+    font-size: 10px;
+  }
+
+  .silver-text-more {
+    font-size: 9px;
+    font-weight: 600;
   }
 }
 
