@@ -1542,8 +1542,16 @@ span {
   }
 
   /* Intro */
+  .intro-inner {
+    justify-content: center;
+  }
+  
   .intro-info {
-    left: calc((100vw - 314px)/2);
+    left: 0;
+  }
+
+  .intro-title {
+    padding
   }
   
   /* Video */
