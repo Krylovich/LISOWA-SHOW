@@ -172,6 +172,14 @@ a {
 }
 
 .dark {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  transition: opacity 0.5s;
+  background: #01000244;
   opacity: 0;
   display: none;
 }
@@ -940,7 +948,7 @@ span {
     overflow-x: hidden;
     transform: translateX(100%);
     justify-content: center;
-    transition: transform 0.5s ease-in;
+    transition: transform 0.5s ease-in-out;
     z-index: 1000;
   }
 
@@ -1545,13 +1553,9 @@ span {
   .intro-inner {
     justify-content: center;
   }
-  
+
   .intro-info {
     left: 0;
-  }
-
-  .intro-title {
-    padding
   }
   
   /* Video */
