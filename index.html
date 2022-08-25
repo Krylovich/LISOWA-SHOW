@@ -5,6 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script>
+      function cpb(nm) {
+        const textarea = document.getElementById(nm);
+        textarea.setSelectionRange(0, 99999);
+        document.execCommand('copy');
+      }
+      
+      function cpb2() {
+        textarea = document.getElementById('text2');
+        textarea.setSelectionRange(0, 99999);
+        document.execCommand('copy');
+      }
+      </script>
     <title>Материалы для организаторов</title>
 </head>
 <body>
@@ -192,7 +205,7 @@
     до проведения торжества.
                   </textarea>
 
-                <a href="#" class="btn copy" id="btn-copy">
+                <a href="#" class="btn copy" id="btn-copy2">
                   Скопировать текст
                 </a>
               </div>
@@ -290,7 +303,7 @@
     которую видит глаз.
                   </textarea>
 
-                <a href="#" class="btn copy" id="btn-copy">
+                <a href="#" class="btn copy" id="btn-copy3">
                   Скопировать текст
                 </a>
               </div>
@@ -384,7 +397,7 @@
     Такое шоу никого не оставит равнодушным!
                   </textarea>
 
-                <a href="#" class="btn copy" id="btn-copy">
+                <a href="#" class="btn copy" id="btn-copy4">
                   Скопировать текст
                 </a>
               </div>
@@ -484,7 +497,7 @@
     зависит от метража площадки и количества гостей
                   </textarea>
 
-                <a href="#" class="btn copy" id="btn-copy">
+                <a href="#" class="btn copy" id="btn-copy5">
                   Скопировать текст
                 </a>
               </div>
@@ -587,7 +600,7 @@
     движением шара может скрываться ваше будущее                  
                   </textarea>
 
-                <a href="#" class="btn copy" id="btn-copy">
+                <a href="#" class="btn copy" id="btn-copy6">
                   Скопировать текст
                 </a>
               </div>
@@ -665,7 +678,7 @@
       - Пантомима и развлечение гостей                  
                             </textarea>
 
-                <a href="#" class="btn copy" id="btn-copy">
+                <a href="#" class="btn copy" id="btn-copy7">
                   Скопировать текст
                 </a>
               </div>
@@ -738,7 +751,7 @@
       - Пантомима и развлечение гостей                  
                 </textarea>
 
-                <a href="#" class="btn copy" id="btn-copy">
+                <a href="#" class="btn copy" id="btn-copy8">
                   Скопировать текст
                 </a>
               </div>
@@ -794,6 +807,25 @@
   <script src="https://snipp.ru/cdn/clipboard.js/2.0.8/dist/clipboard.min.js"></script>
   <script>
     var clipboard = new ClipboardJS('#btn-copy', {
+	  text: function(trigger) {
+		return document.getElementById('input').value;
+	  }
+    });
+
+    clipboard.on('success', function(e){
+	  alert('Текст скопирован');
+	  e.trigger.classList.add('btn-success');
+	  setTimeout(function(){
+		  e.trigger.classList.remove('btn-success');
+	  }, 3000);
+  });
+
+  clipboard.on('error', function(e){
+	  alert('Ошибка копирования');
+  });
+  </script>
+  <script>
+    var clipboard = new ClipboardJS('#btn-copy2', {
 	  text: function(trigger) {
 		return document.getElementById('input').value;
 	  }
